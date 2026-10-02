@@ -1,177 +1,247 @@
+# ORION - PROPRIETARY & PRIVACY LICENSE
 
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+## 1. LICENSE AGREEMENT
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+Last Updated: August 23, 2026
 
-   1. Definitions.
+This Proprietary and Privacy License ("License") governs the use of the Orion blockchain algorithms, source code, and all associated data ("Software").
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+---
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+## 2. OWNERSHIP & INTELLECTUAL PROPERTY
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+### 2.1 Proprietary Rights
+- All algorithms, source code, documentation, and intellectual property contained within Orion are proprietary and confidential.
+- The developers and contributors of Orion retain full ownership of all intellectual property rights.
+- No copyright notice is required; all rights are reserved by default.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+### 2.2 Trade Secrets
+All technical implementations, including but not limited to:
+- Smart contract algorithms
+- Consensus mechanisms
+- Cryptographic implementations
+- Data structures and optimization techniques
+- Network protocols and communication methods
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+ARE CONSIDERED TRADE SECRETS and must be treated as confidential.
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+---
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+## 3. DATA PROTECTION & CONFIDENTIALITY
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+### 3.1 Source Data Protection
+- No unauthorized access to source datasets is permitted
+- All data used in training, testing, or validation of algorithms is strictly confidential
+- Data cannot be:
+  - Copied, extracted, or exported
+  - Shared with external parties (including OpenAI, cloud providers, or third parties)
+  - Used for purposes other than authorized Orion development
+  - Analyzed or processed by external services without explicit written permission
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+### 3.2 Internal Data Security
+All internal data including:
+- Transaction data
+- User information
+- System metadata
+- Performance metrics
+- Development records
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+MUST BE:
+- Encrypted at rest and in transit
+- Stored only on authorized, secure infrastructure
+- Accessed only by authorized personnel with valid credentials
+- Never transmitted to cloud services without explicit approval
+- Protected under strict access control policies
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+### 3.3 API & Third-Party Services
+- OpenAI API Access: Prohibited unless explicitly authorized in writing
+- No AI/ML training data can be sent to external services
+- No algorithms can be reverse-engineered using third-party services
+- All external integrations must be pre-approved and documented
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+---
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+## 4. PERMITTED USE
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+### 4.1 Who Can Use Orion?
+- ✅ Authorized developers and team members
+- ✅ Core development team only
+- ✅ Persons with explicit written permission from project maintainers
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+### 4.2 Permitted Activities
+- ✅ Internal development and testing
+- ✅ Integration within authorized projects
+- ✅ Local deployment and execution (127.0.0.1 / localhost)
+- ✅ Documentation and knowledge sharing (internally only)
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+---
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+## 5. PROHIBITED ACTIVITIES
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+### 5.1 Strictly Forbidden
+- ❌ Distribution: Sharing, publishing, or releasing to public repositories
+- ❌ Commercial Use: Using algorithms for profit without authorization
+- ❌ Reverse Engineering: Attempting to understand, copy, or recreate algorithms
+- ❌ Data Extraction: Exporting or accessing source data
+- ❌ Third-Party Sharing: Sharing with contractors, consultants, or external parties
+- ❌ Open Sourcing: Publishing under open-source licenses without written approval
+- ❌ Cloud Upload: Uploading code or data to cloud services (AWS, Azure, GCP, etc.)
+- ❌ AI Training: Using algorithms or data to train external AI models (including OpenAI)
+- ❌ Modification Without Rights: Altering code without authorization
+- ❌ Competitive Use: Using algorithms to create competing products or services
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+---
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+## 6. ACCESS CONTROL & AUTHORIZATION
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+### 6.1 Access Requirements
+- Each user must have documented authorization
+- Access logs must be maintained and auditable
+- Unauthorized access attempts will result in:
+  - Immediate revocation of access
+  - Legal action if necessary
+  - Potential criminal charges under applicable laws
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+### 6.2 Revocation
+Access can be revoked at any time, for any reason, at the discretion of the project maintainers.
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+---
 
-   END OF TERMS AND CONDITIONS
+## 7. DATA HANDLING COMPLIANCE
+### 7.1 GDPR & Privacy Regulations
+If personal data is processed:
+- ✅ Data processing agreements must be in place
+- ✅ Data subjects must be informed
+- ✅ Data retention policies must be documented
+- ✅ Right to deletion must be honored
+
+### 7.2 Blockchain-Specific Data
+- All blockchain transactions are immutable
+- Privacy considerations must be addressed in smart contracts
+- User data collection must be minimized and purposeful
+
+---
+
+## 8. CONFIDENTIALITY OBLIGATIONS
+
+### 8.1 Duration
+Confidentiality obligations continue:
+- ✅ During active use of the Software
+- ✅ Indefinitely after termination for trade secrets
+- ✅ Forever for proprietary algorithms (unless officially released)
+
+### 8.2 Permitted Disclosures
+Information may only be disclosed to:
+- Employees with documented need-to-know
+- Authorized contractors with signed NDAs
+- Legal representatives (under court order only)
+
+---
+
+## 9. SECURITY REQUIREMENTS
+
+### 9.1 Technical Controls
+- ✅ Use strong authentication (2FA/MFA)
+- ✅ Encrypt all data in transit (TLS/SSL)
+- ✅ Encrypt all data at rest (AES-256 or better)
+- ✅ Maintain access logs and audit trails
+- ✅ Regular security audits and penetration testing
+- ✅ Keep all dependencies and systems updated
+
+### 9.2 Physical Security
+- ✅ Secure access to physical infrastructure
+- ✅ Documented access to development machines
+- ✅ Secure disposal of storage media
+
+---
+
+## 10. LIABILITY & INDEMNIFICATION
+
+### 10.1 Disclaimer
+THE SOFTWARE IS PROVIDED "AS-IS" WITHOUT ANY WARRANTIES, EXPRESS OR IMPLIED.
+
+### 10.2 Limitation of Liability
+The developers shall not be liable for:
+- Direct or indirect damages
+- Data loss or corruption
+- Security breaches due to user negligence
+- Third-party claims
+
+### 10.3 Indemnification
+Users agree to indemnify and hold harmless the developers from:
+- Claims arising from unauthorized use
+- Violations of this license
+- Third-party intellectual property claims
+- Regulatory violations
+
+---
+
+## 11. TERMINATION
+
+### 11.1 Immediate Termination
+This license terminates immediately upon:
+- Violation of any provision
+- Unauthorized disclosure
+- Attempt to reverse-engineer or decompile
+- Use beyond authorized scope
+- Transfer of code to unauthorized parties
+
+### 11.2 Effects of Termination
+Upon termination:
+- ❌ All access is revoked immediately
+- ❌ All copies must be destroyed (except legally required copies)
+- ❌ All data must be returned or securely deleted
+- ❌ Confidentiality obligations remain in effect
+
+---
+
+## 12. LEGAL COMPLIANCE
+
+### 12.1 Applicable Law
+This License is governed by applicable laws in the jurisdiction where Orion is maintained.
+
+### 12.2 Enforcement
+- Violations will be pursued to the fullest extent of the law
+- Injunctive relief may be sought immediately
+- Criminal charges may be filed for serious violations
+- Civil damages will be claimed for losses
+
+### 12.3 Export Controls
+If applicable, users agree to comply with:
+- U.S. Export Administration Regulations (EAR)
+- International Traffic in Arms Regulations (ITAR)
+- Sanctions and embargo regulations
+- Cryptography export restrictions
+
+---
+
+## 13. MODIFICATIONS TO LICENSE
+
+The project maintainers reserve the right to modify this License at any time. Users will be notified of material changes. Continued use constitutes acceptance of updated terms.
+
+---
+
+## 14. CONTACT & DISPUTES
+
+For questions or disputes regarding this License:
+- 📧 Email: [contact email]
+- 📝 GitHub Issues: [repository]
+- ⚖️ Legal inquiries: [legal contact]
+
+---
+
+## 15. ACKNOWLEDGMENT
+
+By accessing or using Orion, you acknowledge that you have:
+- ✅ Read and understood this License
+- ✅ Agreed to all terms and conditions
+- ✅ Understand the confidentiality obligations
+- ✅ Accepted all liability limitations
+
+If you do not agree, DO NOT USE this software.
+
+---
+
+Last Updated: August 23, 2026  
+License Version: 1.0  
+Status: ACTIVE - All Rights Reserved
